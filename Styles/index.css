@@ -18,7 +18,13 @@ h1 {
     font-size: 30px;
 }
 
-div {
+.Boton1 {
     text-align: center;
-    color: blue;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    
+}
+div{
+    text-align: center;
 }
