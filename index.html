@@ -6,21 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio</title>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg">
+    <link rel="icon" href="https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W">
 </head>
 <body>
-    <h1>simon</h1>
-    <div class="imagenes">
-        <img src="https://bolavip.com/__export/1662998813580/sites/bolavip/img/2022/09/12/gettyimages-1409870397_x1x.jpg_1159711837.jpg" alt="Imagenmessi">
-    </div>
-    <h1>Jovenes Creativos</h1>
-    <h4 class="letrar">Hoy</h4>
-    <p id="centarpar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates cum illo doloremque modi, inventore exercitationem corrupti consequuntur nulla quo odit esse, rerum expedita vel? Expedita eum dignissimos officia dolor adipisci?</p>
+    <h1>Inicio Sesion</h1>
     <div>
+        <form action="">
+            <ul>
+                <li>
+                    <label for="Tipo de documento">Tipo de documento</label>
+
+                   <select name="Tipo" id="Tipo">
+                    <option value="Cedula">Cedula</option>
+                    <option value="tarjeta de Identidad">Tarjeta de identidad</option>
+                   </select>
+                </li>
+                <li>
+                    <label for="Numero de Indentidad">Numero de Identidad</label>
+                    <br>
+                    <input 
+                    type="number" 
+                    id="name" 
+                    name="name" 
+                    required
+                    min="0" max="10">
+                </li>
+                <li>
+                    <label for="Nombre">Nombre</label>
+                    <br>
+                    <input 
+                    type="text" 
+                    id="Nombre" 
+                    name="Nombre"
+                    required
+                    min="1"
+                    />
+                    
+                </li>
+                <li>
+                    <label for="Apellido">Apellido</label>
+                    <br>
+                    <input 
+                    type="text" 
+                    id="Apellido" 
+                    name="Apellido">
+                </li>  
+                <li>
+                    <label for="Numero de Telefono">Numero de Telefono</label>
+                    <br>
+                    <input 
+                    type="number" 
+                    id="Numero de Telefono" 
+                    name="Numero de Telefono" 
+                    required
+                    max="10" min="0">
+                </li>
+                <li>
+                    <label for="Tipo de sangre">Tipo de sangre</label>
+                    <br>
+                    <select name="TipoS" id="TipoS">
+                     <option value="Postiva">O+</option>
+                     <option value="Negativa">O-</option>
+                     <option value="Otra">Otra</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="Genero">Genero</label>
+                    <br>
+                    <select name="Genero" id="Genero">
+                     <option value="Mujre">Mujer</option>
+                     <option value="Hombre">Hombre</option>
+                     <option value="Otro">Otro</option>
+                    </select>
+                </li>
+            </ul>       
+        </form>
+    </div>
+    
         <a 
             href="https://www.instagram.com/">
-            <button class="Boton1">Nustro instagram</button>
+            <button class="Boton1">Ingresar</button>
         </a>
     </div>
+    
 </body>
 </html>

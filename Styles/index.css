@@ -23,8 +23,8 @@ h1 {
     background-color: black;
     color: white;
     padding: 15px 25px;
-    
+    cursor: pointer;
 }
-div{
+.Borto1{
     text-align: center;
-}
+} 
